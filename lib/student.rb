@@ -20,7 +20,7 @@ class Student
       );
     SQL
     
-    DB[:conn].execeute(sql)
+    DB[:conn].execute(sql)
   end 
   
   def self.drop_table 
